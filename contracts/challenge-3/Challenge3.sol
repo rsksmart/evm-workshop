@@ -16,11 +16,11 @@ contract Challenge3 {
     }
 
     function writeToCustomMapping(uint256 slot, uint256 key, uint256 val) external returns (bool) {
-        //calculate the storage location and write to it using assembly
+        //calculate the storage location and write to it using assembly. it should store the value in the same storage location as writeToMapping
     }
 
     function readFromCustomMapping(uint256 slot, uint256 key) external view returns (uint256) {
-         //calculate the storage location and read from it using assembly
+         //calculate the storage location and read from it using assembly. it should return the same value as readFromMapping
 
          return 0; //just for the project to compile. replace with the actual value
     }

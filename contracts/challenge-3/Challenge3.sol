@@ -15,7 +15,7 @@ contract Challenge3 {
         return values[key];
     }
 
-    function writeToCustomMapping(uint256 slot, uint256 key, uint256 val) external returns (bool) {
+    function writeToCustomMapping(uint256 slot, uint256 key, uint256 val) external returns (uint256) {
         //calculate the storage location and write to it using assembly. it should store the value in the same storage location as writeToMapping
         // your solution goes here
     }

@@ -4,6 +4,7 @@
     "test": "npx hardhat test",
     "test:p1": "npx hardhat test ./test/challenge1.spec.ts",
     "test:p2": "npx hardhat test ./test/challenge2.spec.ts",
+    "test:p3": "npx hardhat test ./test/challenge3.spec.ts",
     "compile": "npx hardhat compile"
   },
   "devDependencies": {

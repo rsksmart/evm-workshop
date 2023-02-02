@@ -4,7 +4,7 @@ import { ethers } from "hardhat";
 
 describe("Solution 3", function () {
   describe("Check mapping storage key", function () {
-    it.only("should write natively and read custom the same values", async function () {
+    it("should write and read the same values", async function () {
       const challengeFactory = await ethers.getContractFactory("Challenge3");
       const challengeContract = await challengeFactory.deploy();
 
@@ -21,7 +21,7 @@ describe("Solution 3", function () {
       expect(value).to.be.equals(customMappingValue);
     });
 
-    it.only("should write custom and read natively the same values", async function () {
+    it("should write and read the same values", async function () {
       const challengeFactory = await ethers.getContractFactory("Challenge3");
       const challengeContract = await challengeFactory.deploy();
 
